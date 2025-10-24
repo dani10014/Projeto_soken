@@ -1,0 +1,205 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    padding: 17px;
+}
+main{
+    background-color: rgb(49, 75, 7);
+}
+body{
+    background-color: #ffffff;
+    font-family:"Inter", sans-serif;
+}
+header .container{
+    font-family:"Inter", sans-serif;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+header{
+    background-color: rgb(49, 75, 7);
+}
+header .logo{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+header .logo img{
+    width: 30px;
+    height: 30px
+}
+header .nome-empresa{
+    font-size: 12px;
+    color: white;
+}
+header .menu{
+    display:flex;
+    flex-direction: column;
+    gap: 4px;
+    cursor: pointer;
+}
+header .menu span{
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    border-radius: 2px;
+}
+main .menu-lateral{
+    background-color: rgb(107, 156, 29);
+    color: rgb(0, 0, 0);
+    position: fixed;
+    height: 100%;
+    align-items: center;
+    width: 50%;
+    max-width: 300px;
+    z-index: 100;
+    top: 0;
+    right: 0;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+}
+main .menu-lateral .header-menu{
+    background-color:#003700;
+    padding: 32px;
+}
+main .container-cabecalho-botao{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+main .menu-lateral .texto-principal-botao h2{
+    color: #fff;
+}
+main .menu-lateral .botao-fechar button{
+    background: none;
+    border: none;
+    font-size: 22px;
+    cursor: pointer;
+    color: #fff;
+}
+main .menu-lateral.ativo {
+    transform: translateX(0);
+}
+section .container-texto-money{
+    padding: 17px;
+    font-family: "Inter", sans-serif;;
+}
+section .container-texto-money h1{
+    color: white;
+}
+section .container-texto-money span{
+    color: rgba(17, 184, 17, 0.644);
+}
+section .container-texto-money p{
+    color: grey;
+    word-wrap: break-word;
+    font-size: 20px;
+    margin-top: 16px;
+}
+section .texto-our-off{
+    color: white;
+    font-family: "Inter", sans-serif;
+    margin: 17px;
+    font-size: 12px;
+}
+section .container-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 14px;
+    width: 100%;
+    margin-bottom: 80px;
+    margin-top: 30px;
+}
+section .container-card .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+    font-family: "Inter", sans-serif;
+    color: rgba(0, 0, 0, 0.493);
+    height: 150px;
+    border-radius: 3px;
+    width: 120px;
+    justify-content: center;
+    background-color: rgba(107, 156, 29, 0.733);
+}
+section .container-card img{
+    width: 30px;
+    width: 30px;
+    margin-bottom: 16px;
+}
+footer .container{
+    margin-bottom: 30px;
+    margin-left: 5px;
+}
+footer a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 12px;
+    font-size: 17px;
+    font-family: "Inter", sans-serif;
+}
+#fundo-debaixo{
+    background-color: #ffffff;
+}
+#fundo-debaixo .imagem-central{
+    display: flex;
+    padding:20px;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+#fundo-debaixo .imagem-central img{
+    width: 90%;
+    height: auto;
+    border-radius: 20px;
+}
+@media screen and (min-width: 768px) {
+header .container{
+    padding: 10px;
+    }
+header .logo{
+    gap: 15px;
+    }
+header .logo img{
+    width: 40px;
+    height: 40px
+}
+header .nome-empresa{
+    font-size: 22px;
+    }
+header .botao-get{
+    padding: 15px;
+    } 
+main .container-texto-money{
+    padding: 3px 25px;
+    font-size: 32px;
+}
+section .texto-our-off{
+    margin: 24px;
+    font-size: 16px;
+    justify-content: center;
+}
+section .container-card .card{
+    font-size: 25px;
+}
+section .container-card .card{
+    width: 400px;
+    height: 300px;
+}
+section .container-card img{
+    width: 100px;
+    height: 100px;
+}
+footer .container{
+    margin: 37px;
+}
+}
