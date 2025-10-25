@@ -53,7 +53,7 @@ main .menu-lateral{
     position: fixed;
     height: 100%;
     align-items: center;
-    width: 60%;
+    width: 50%;
     max-width: 250px;
     border-left:4px solid rgba(0, 0, 0, 0.685) ;
     z-index: 100;
@@ -229,7 +229,5 @@ section .container-card img{
 footer .container{
     margin: 37px;
 }
-main .menu-lateral{
-    width: 30%;
-}
+
 }
