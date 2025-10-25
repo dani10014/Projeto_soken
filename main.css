@@ -2,12 +2,10 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
-header{
-    padding: 17px;
+    font-family:"Inter", sans-serif;
 }
 main{
-    background-color: rgb(49, 75, 7);
+    background-color: #314B07; /* Verde Escuro */
 }
 body{
     background-color: #ffffff;
@@ -21,7 +19,8 @@ header .container{
     align-items: center;
 }
 header{
-    background-color: rgb(49, 75, 7);
+    background-color: #314B07; /* Verde Escuro */
+    padding: 17px;
 }
 header .logo{
     display: flex;
@@ -50,22 +49,23 @@ header .menu span{
     border-radius: 2px;
 }
 main .menu-lateral{
-    background-color: rgb(107, 156, 29);
-    color: rgb(0, 0, 0);
+    background-color:#6B9C1D;  
     position: fixed;
     height: 100%;
     align-items: center;
-    width: 50%;
-    max-width: 300px;
+    width: 30%;
+    max-width: 250px;
+    border-left:4px solid rgba(0, 0, 0, 0.685) ;
     z-index: 100;
-    top: 0;
-    right: 0;
+    top: 0; 
+    right: 0; 
     transform: translateX(100%);
     transition: transform 0.3s ease-in-out;
 }
 main .menu-lateral .header-menu{
-    background-color:#003700;
-    padding: 32px;
+    background-color: #314B07; 
+    border-bottom: 2px solid #fff;
+    padding: 30px;
 }
 main .container-cabecalho-botao{
     display: flex;
@@ -86,20 +86,47 @@ main .menu-lateral .botao-fechar button{
 main .menu-lateral.ativo {
     transform: translateX(0);
 }
+.conteudo-principal-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+}
+.conteudo-principal-menu .secao-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.conteudo-principal-menu a{
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    background-color: #6B9C1D;
+    border-bottom: 2px solid #DDDDDD;
+    border: 100%;
+    font-size: 17px;
+    padding: 13px;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+
 section .container-texto-money{
-    padding: 17px;
-    font-family: "Inter", sans-serif;;
+    font-family: "Inter", sans-serif;
+    margin: 0 17px;
 }
 section .container-texto-money h1{
     color: white;
 }
 section .container-texto-money span{
-    color: rgba(17, 184, 17, 0.644);
+    color: #6B9C1D;
 }
 section .container-texto-money p{
-    color: grey;
+    color: #DDDDDD; /* Cinza Claro */
     word-wrap: break-word;
-    font-size: 20px;
+    font-size: 18px; /* Ajuste para melhor leitura */
     margin-top: 16px;
 }
 section .texto-our-off{
@@ -122,14 +149,14 @@ section .container-card .card{
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 12px;
+    font-size: 14px;
     font-family: "Inter", sans-serif;
-    color: rgba(0, 0, 0, 0.493);
+    color: #FFFFFF; /* Branco */
     height: 150px;
     border-radius: 3px;
     width: 120px;
     justify-content: center;
-    background-color: rgba(107, 156, 29, 0.733);
+    background-color: #6B9C1D; /* Verde Destaque */
 }
 section .container-card img{
     width: 30px;
