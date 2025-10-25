@@ -190,7 +190,7 @@ footer a{
 }
 #fundo-debaixo .imagem-central{
     display: flex;
-    padding:60px;
+    padding:30px;
     justify-content: center;
     align-items: center;
     overflow-x: hidden;
@@ -240,6 +240,9 @@ footer .container{
 }
 main .menu-lateral{
     width: 60%;
+}
+#fundo-debaixo .imagem-central{
+    padding: 60px;
 }
 
 }
