@@ -87,32 +87,43 @@ main .menu-lateral.ativo {
     transform: translateX(0);
 }
 .conteudo-principal-menu{
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     width: 100%;
-    margin-top: 20px;
 }
 .conteudo-principal-menu .secao-links{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 .conteudo-principal-menu a{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
     text-decoration: none;
-    display: block;
     color: #fff;
-    background-color: #6B9C1D;
     border-bottom: 2px solid #DDDDDD;
-    border: 100%;
     font-size: 17px;
-    padding: 13px;
     width: 100%;
     height: 50px;
-    text-align: center;
+    transition: background-color 0.2s ease-in-out; /* Adiciona uma transição suave */
+    padding-left: 20px;
 }
+main .conteudo-principal-menu .secao-links a:hover{
+    background-color: #314B07;
+}
+.conteudo-principal-menu img{
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+.conteudo-principal-menu span {
+    margin-left: 20px;
 
+}
 section .container-texto-money{
     font-family: "Inter", sans-serif;
     margin: 0 17px;
@@ -124,16 +135,16 @@ section .container-texto-money span{
     color: #6B9C1D;
 }
 section .container-texto-money p{
-    color: #DDDDDD; /* Cinza Claro */
+    color: #DDDDDD;
     word-wrap: break-word;
-    font-size: 18px; /* Ajuste para melhor leitura */
+    font-size: 18px; 
     margin-top: 16px;
 }
-section .texto-our-off{
+section .texto-our-off-container{
     color: white;
     font-family: "Inter", sans-serif;
-    margin: 17px;
     font-size: 12px;
+    margin: 17px;
 }
 section .container-card{
     display: flex;
@@ -179,48 +190,46 @@ footer a{
 }
 #fundo-debaixo .imagem-central{
     display: flex;
-    padding:20px;
+    padding:60px;
     justify-content: center;
     align-items: center;
     overflow-x: hidden;
 }
 #fundo-debaixo .imagem-central img{
-    width: 90%;
-    height: auto;
     border-radius: 20px;
 }
 @media screen and (min-width: 768px) {
 header .container{
     padding: 10px;
-    }
+}
 header .logo{
     gap: 15px;
-    }
+}
 header .logo img{
     width: 40px;
     height: 40px
 }
 header .nome-empresa{
     font-size: 22px;
-    }
+}
 header .botao-get{
     padding: 15px;
-    } 
-main .container-texto-money{
-    padding: 3px 25px;
-    font-size: 32px;
+} 
+section .container-texto-money{
+    margin: 0 45px ;
+    font-size: 29px;
 }
-section .texto-our-off{
-    margin: 24px;
+section .texto-our-off-container{
+    margin: 15px 45px;
     font-size: 16px;
     justify-content: center;
 }
 section .container-card .card{
-    font-size: 25px;
-}
-section .container-card .card{
     width: 400px;
     height: 300px;
+}
+section .container-card .card h3{
+    font-size: 30px;
 }
 section .container-card img{
     width: 100px;
@@ -228,6 +237,9 @@ section .container-card img{
 }
 footer .container{
     margin: 37px;
+}
+main .menu-lateral{
+    width: 60%;
 }
 
 }
