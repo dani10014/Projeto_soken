@@ -149,7 +149,7 @@ section .container-card .card{
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 14px;
+    font-size: 12px;
     font-family: "Inter", sans-serif;
     color: #FFFFFF; /* Branco */
     height: 150px;
