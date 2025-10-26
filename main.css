@@ -58,7 +58,7 @@ main .menu-lateral{
     align-items: center;
     width: 50%;
     max-width: 250px;
-    border-left:4px solid rgba(0, 0, 0, 0.685) ;
+    border-left:1px solid rgba(0, 0, 0, 0.685) ;
     z-index: 100;
     top: 0; 
     right: 0; 
