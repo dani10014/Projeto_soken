@@ -68,7 +68,7 @@ main .menu-lateral{
 main .menu-lateral .header-menu{
     background-color: #314B07; 
     border-bottom: 1px solid #fff;
-    padding: 34px 30px;
+    padding: 33px 17px;
 }
 main .container-cabecalho-botao{
     display: flex;
@@ -95,7 +95,7 @@ main .menu-lateral.ativo {
     justify-content: center;
     flex-direction: column;
     width: 100%;
-    margin-top: 90px;
+    margin-top: 96px;
 }
 .conteudo-principal-menu .secao-links{
     display: flex;
