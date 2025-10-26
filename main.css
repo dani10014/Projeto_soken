@@ -67,8 +67,8 @@ main .menu-lateral{
 }
 main .menu-lateral .header-menu{
     background-color: #314B07; 
-    border-bottom: 2px solid #fff;
-    padding: 30px;
+    border-bottom: 1px solid #fff;
+    padding: 34px 30px;
 }
 main .container-cabecalho-botao{
     display: flex;
