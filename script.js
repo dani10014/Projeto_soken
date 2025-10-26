@@ -21,11 +21,50 @@ $(document).ready(function() {
             enabled:true
         }
     });
-    $(".menu-lateral #sobre").on("click", function(event) {
-        event.preventDefault(); 
+    $(".menu-lateral #contato").on("click", function(event) {
+        $(".menu-lateral").removeClass("ativo");
+        event.preventDefault();
+        
         let caminho = $("#container-about");
         $('html, body').animate({
             scrollTop: caminho.offset().top
         }, 800); 
     });
 });
+    $(".menu-lateral #sobre").on("click", function(event) {
+        $(".menu-lateral").removeClass("ativo");
+        event.preventDefault(); 
+    
+        let caminho = $("#container-about");
+        $('html, body').animate({
+            scrollTop: caminho.offset().top
+        }, 800); 
+    });
+    $(".menu-lateral #social").on("click", function(event) {
+        $(".menu-lateral").removeClass("ativo");
+        event.preventDefault();
+        
+        let caminho = $("#container-about");
+        $('html, body').animate({
+            scrollTop: caminho.offset().top
+        }, 800); 
+    });
+    $(".menu-lateral #endereco").on("click", function(event) {
+        $(".menu-lateral").removeClass("ativo");
+        event.preventDefault(); 
+
+        let caminho = $("#container-about");
+        $('html, body').animate({
+            scrollTop: caminho.offset().top
+        }, 800); 
+    });
+    $(".menu-lateral #termos-legais").on("click", function(event) {
+        $(".menu-lateral").removeClass("ativo");
+        event.preventDefault(); 
+
+        let caminho = $("#container-about");
+        $('html, body').animate({
+            scrollTop: caminho.offset().top
+        }, 800); 
+    });
+
