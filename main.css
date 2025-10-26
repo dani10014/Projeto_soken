@@ -210,7 +210,7 @@ section .texto-principal-sobre .cabecalho-e-texto-sobre h2{
 }
 section .texto-principal-sobre .cabecalho-e-texto-sobre p{
     color: #fff;
-    font-size: 12px;
+    font-size: 15px;
 }
 
 @media screen and (min-width: 768px) {
