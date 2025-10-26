@@ -149,6 +149,7 @@ section .texto-our-off-container{
     font-size: 12px;
     margin: 17px;
 }
+
 section .container-card{
     display: flex;
     justify-content: center;
@@ -190,28 +191,28 @@ section .container-card img{
     max-width: 300px; 
     margin: 0 auto;
 }
-section .texto-principal-sobre{
+#container-about .texto-principal-sobre{
     display: flex;
     align-items: center;
     width: 100%;
 }
-section .texto-principal-sobre .cabecalho-e-texto-sobre{
+#container-about .texto-principal-sobre .cabecalho-e-texto-sobre{
     display: block;
     background-color: #4e4141;
     padding: 20px;
     border-radius: 10px;
     width: 400px;
-    height: 330px;
+    height: 360px;
     margin: 12px;
 }
-section .texto-principal-sobre .cabecalho-e-texto-sobre h2{
+#container-about .texto-principal-sobre .cabecalho-e-texto-sobre h2{
     margin-bottom: 10px;
     color: #fff;
     font-size: 25px;
 }
-section .texto-principal-sobre .cabecalho-e-texto-sobre p{
+#container-about .texto-principal-sobre .cabecalho-e-texto-sobre p{
     color: #fff;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 @media screen and (min-width: 768px) {
