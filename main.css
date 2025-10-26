@@ -21,9 +21,11 @@ header{
     background-color: #314B07;
     padding: 33px 17px;
     position: fixed;
-    border-bottom: 1px solid #0f0d0de5;
+    border-bottom: 1px solid #0f0d0d;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.479);
     top :0;
     width: 100%;
+    z-index: 1;
 }
 header .logo{
     display: flex;
@@ -145,11 +147,9 @@ section .container-texto-money p{
 section .texto-our-off-container{
     color: white;
     font-family: "Inter", sans-serif;
-    text-decoration:underline;
     font-size: 12px;
     margin: 17px;
 }
-
 section .container-card{
     display: flex;
     justify-content: center;
@@ -172,6 +172,7 @@ section .container-card .card{
     width: 120px;
     justify-content: center;
     background-color: #6B9C1D;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25); /* Sombra para destacar os cards */
 }
 section .container-card img{
     width: 30px;
@@ -188,7 +189,7 @@ section .container-card img{
     border-radius: 20px;
     height: auto;
     width: 100%; 
-    max-width: 300px; 
+    max-width: 500px; 
     margin: 0 auto;
 }
 #container-about .texto-principal-sobre{
@@ -201,9 +202,10 @@ section .container-card img{
     background-color: #4e4141;
     padding: 20px;
     border-radius: 10px;
-    width: 400px;
-    height: 360px;
+    width: 100%;
+    height: 600px;
     margin: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
 }
 #container-about .texto-principal-sobre .cabecalho-e-texto-sobre h2{
     margin-bottom: 10px;
@@ -216,6 +218,9 @@ section .container-card img{
 }
 
 @media screen and (min-width: 768px) {
+header{
+    padding: 11px;
+}
 header .container{
     padding: 10px;
 }
@@ -261,5 +266,7 @@ main .menu-lateral{
 #fundo-debaixo .imagem-central{
     padding: 60px;
 }
-
+#fundo-debaixo .imagem-central img{
+    max-width: 1000px;
+}
 }

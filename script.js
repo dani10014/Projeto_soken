@@ -15,10 +15,17 @@ $(document).ready(function() {
     })
     
     $carousel.magnificPopup({
-        delegate: 'a:not(.slick-cloned)', // Delega o clique para os links que NÃO são clones do Slick
+        delegate: 'a:not(.slick-cloned)',
         type: 'image',
         gallery:{
             enabled:true
         }
     });
-})
+    $(".menu-lateral #sobre").on("click", function(event) {
+        event.preventDefault(); 
+        let caminho = $("#container-about");
+        $('html, body').animate({
+            scrollTop: caminho.offset().top
+        }, 800); 
+    });
+});
