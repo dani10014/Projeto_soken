@@ -2,24 +2,22 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family:"Inter", sans-serif;
 }
 main{
-    background-color: #314B07; /* Verde Escuro */
+    background-color: #314B07;
 }
 body{
     background-color: #ffffff;
     font-family:"Inter", sans-serif;
 }
 header .container{
-    font-family:"Inter", sans-serif;
     display: flex;
     width: 100%;
     justify-content: space-between;
     align-items: center;
 }
 header{
-    background-color: #314B07; /* Verde Escuro */
+    background-color: #314B07;
     padding: 17px;
 }
 header .logo{
@@ -116,13 +114,11 @@ main .conteudo-principal-menu .secao-links a:hover{
     background-color: #314B07;
 }
 .conteudo-principal-menu img{
-    margin-right: 10px;
     width: 20px;
     height: 20px;
 }
 .conteudo-principal-menu span {
-    margin-left: 20px;
-
+    margin-left: 15px;
 }
 section .container-texto-money{
     font-family: "Inter", sans-serif;
@@ -162,41 +158,30 @@ section .container-card .card{
     align-items: center;
     font-size: 12px;
     font-family: "Inter", sans-serif;
-    color: #FFFFFF; /* Branco */
+    color: #FFFFFF; 
     height: 150px;
     border-radius: 3px;
     width: 120px;
     justify-content: center;
-    background-color: #6B9C1D; /* Verde Destaque */
+    background-color: #6B9C1D;
 }
 section .container-card img{
     width: 30px;
-    width: 30px;
     margin-bottom: 16px;
-}
-footer .container{
-    margin-bottom: 30px;
-    margin-left: 5px;
-}
-footer a{
-    text-decoration: none;
-    color: #fff;
-    margin-left: 12px;
-    font-size: 17px;
-    font-family: "Inter", sans-serif;
 }
 #fundo-debaixo{
     background-color: #ffffff;
 }
 #fundo-debaixo .imagem-central{
-    display: flex;
     padding:30px;
-    justify-content: center;
-    align-items: center;
-    overflow-x: hidden;
+    overflow: hidden; /* É bom manter o overflow hidden */
 }
 #fundo-debaixo .imagem-central img{
     border-radius: 20px;
+    height: auto;
+    width: 100%; /* Garante que a imagem ocupe a largura do slide */
+    max-width: 1200px; /* Define uma largura máxima para não ficar gigante em telas grandes */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente dentro do slide */
 }
 @media screen and (min-width: 768px) {
 header .container{
