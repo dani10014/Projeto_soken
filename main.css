@@ -145,6 +145,7 @@ section .container-texto-money p{
 section .texto-our-off-container{
     color: white;
     font-family: "Inter", sans-serif;
+    text-decoration:underline;
     font-size: 12px;
     margin: 17px;
 }
