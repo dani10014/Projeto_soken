@@ -94,6 +94,7 @@ main .menu-lateral.ativo {
     justify-content: center;
     flex-direction: column;
     width: 100%;
+    margin-top: 90px;
 }
 .conteudo-principal-menu .secao-links{
     display: flex;
