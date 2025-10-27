@@ -194,34 +194,45 @@ section .container-card img{
     max-width: 500px; 
     margin: 0 auto;
 }
-#container-about .texto-principal-sobre{
-    display: flex;
-    align-items: center;
-    width: 100%;
-}
-#container-about .texto-principal-sobre .cabecalho-e-texto-sobre{
-    display: block;
-    background-color: rgba(240, 234, 234, 0.15); 
-    width: 100%;
-    height: 600px;
-    margin: 12px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
-    backdrop-filter: blur(5px); 
-}
 #container-about {
-    background-color: #04180c;
+    background-color: #314B07;
+    height: 500px;
 }
-#container-about .texto-principal-sobre .cabecalho-e-texto-sobre h2{
-    margin-bottom: 10px;
-    color: #fff;
-    font-size: 25px;
-    
+#container-about .grid{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin: 17px;
 }
-#container-about .texto-principal-sobre .cabecalho-e-texto-sobre p{
-    color: #fff;
-    font-size: 18px;
+#container-about .conteudo-grid{
+    display: block;
+    width: 170px;
+    height: 300px;
+    background-color: #FFFFFF;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
 }
-
+#container-about .conteudo-grid img {
+    width: 100%;
+    height: 40%;
+    object-fit: cover; 
+}
+#container-about .conteudo-grid img{
+    width: 100%;
+    height: 100px;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px
+}
+#container-about .conteudo-grid h2{
+    color: #000000;
+    padding: 8px;
+}
+#container-about .conteudo-grid p{
+    color: #242222;
+    padding: 0 8px;
+}
 @media screen and (min-width: 768px) {
 header{
     padding: 6px;
@@ -282,4 +293,3 @@ main .menu-lateral .header-menu{
 }
 
 }
-
