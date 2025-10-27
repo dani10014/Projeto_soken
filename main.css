@@ -131,6 +131,7 @@ main .conteudo-principal-menu .secao-links a:hover{
 section .container-texto-money{
     font-family: "Inter", sans-serif;
     margin-left: 17px;
+    margin-right:17px ;
     padding-top: 20px;
 }
 section .container-texto-money h1{
