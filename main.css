@@ -9,7 +9,7 @@ main{
 body{
     background-color: #ffffff;
     font-family:"Inter", sans-serif;
-    margin-top: 96px;
+    margin-top: 81px;
 }
 header .container{
     display: flex;
@@ -19,7 +19,7 @@ header .container{
 }
 header{
     background-color: #314B07;
-    padding: 33px 17px;
+    padding: 25px 17px;
     position: fixed;
     border-bottom: 1px solid #0f0d0d;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.479);
@@ -70,7 +70,7 @@ main .menu-lateral{
 main .menu-lateral .header-menu{
     background-color: #314B07; 
     border-bottom: 1px solid #fff;
-    padding: 33px 17px;
+    padding: 25px 17px;
 }
 main .container-cabecalho-botao{
     display: flex;
@@ -97,7 +97,7 @@ main .menu-lateral.ativo {
     justify-content: center;
     flex-direction: column;
     width: 100%;
-    margin-top: 96px;
+    margin-top: 80px;
 }
 .conteudo-principal-menu .secao-links{
     display: flex;
@@ -130,7 +130,8 @@ main .conteudo-principal-menu .secao-links a:hover{
 }
 section .container-texto-money{
     font-family: "Inter", sans-serif;
-    margin: 0 17px;
+    margin-left: 17px;
+    padding-top: 20px;
 }
 section .container-texto-money h1{
     color: white;
@@ -199,18 +200,21 @@ section .container-card img{
 }
 #container-about .texto-principal-sobre .cabecalho-e-texto-sobre{
     display: block;
-    background-color: #4e4141;
-    padding: 20px;
-    border-radius: 10px;
+    background-color: rgba(240, 234, 234, 0.15); 
     width: 100%;
     height: 600px;
     margin: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+    backdrop-filter: blur(5px); 
+}
+#container-about {
+    background-color: #04180c;
 }
 #container-about .texto-principal-sobre .cabecalho-e-texto-sobre h2{
     margin-bottom: 10px;
     color: #fff;
     font-size: 25px;
+    
 }
 #container-about .texto-principal-sobre .cabecalho-e-texto-sobre p{
     color: #fff;
@@ -219,7 +223,7 @@ section .container-card img{
 
 @media screen and (min-width: 768px) {
 header{
-    padding: 11px;
+    padding: 6px;
 }
 header .container{
     padding: 10px;
@@ -269,4 +273,12 @@ main .menu-lateral{
 #fundo-debaixo .imagem-central img{
     max-width: 1000px;
 }
+main .menu-lateral .header-menu{
+    padding: 28px 17px;
 }
+.conteudo-principal-menu{
+    margin-top: 87px;
+}
+
+}
+
