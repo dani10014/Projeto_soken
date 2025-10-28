@@ -9,7 +9,6 @@ main{
 body{
     background-color: #ffffff;
     font-family:"Inter", sans-serif;
-    margin-top: 79px;
 }
 header .container{
     display: flex;
@@ -20,7 +19,7 @@ header .container{
 header{
     background-color: #314B07;
     padding: 25px 17px;
-    position: fixed;
+    position:sticky;
     border-bottom: 1px solid #0f0d0d;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.479);
     top :0;
@@ -97,7 +96,6 @@ main .menu-lateral.ativo {
     justify-content: center;
     flex-direction: column;
     width: 100%;
-    margin-top: 80px;
 }
 .conteudo-principal-menu .secao-links{
     display: flex;
@@ -115,7 +113,7 @@ main .menu-lateral.ativo {
     font-size: 17px;
     width: 100%;
     height: 50px;
-    transition: background-color 0.2s ease-in-out; /* Adiciona uma transição suave */
+    transition: background-color 0.2s ease-in-out; 
     padding-left: 20px;
 }
 main .conteudo-principal-menu .secao-links a:hover{
@@ -146,7 +144,7 @@ section .container-texto-money p{
     font-size: 18px; 
     margin-top: 16px;
 }
-section .texto-our-off-container{
+.texto-our-off-container{
     color: white;
     font-family: "Inter", sans-serif;
     font-size: 12px;
@@ -174,6 +172,7 @@ section .container-card .card{
     width: 120px;
     justify-content: center;
     background-color: #6B9C1D;
+    backdrop-filter: blur(10px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25); /* Sombra para destacar os cards */
 }
 section .container-card img{
@@ -196,17 +195,23 @@ section .container-card img{
 }
 #container-about {
     background-color: #314B07;
+    background-image: url("./feliz-gerente-de-banco-afro-americano-apertando-as-maos-de-um-cliente-apos-um-acordo-bem-sucedido-no-escritorio.jpg");
+    background-size: cover;
     height: 500px;
+    padding-top: 20px;
 }
 #container-about .grid{
     display: flex;
     justify-content:space-around;
+    flex-wrap: wrap;
+    gap:5px;
     align-items: center;
     margin: 17px;
 }
 #container-about .conteudo-grid{
     display: block;
     width: 170px;
+    gap:100px;
     height: 300px;
     background-color: #FFFFFF;
     border-top-left-radius: 9px;
