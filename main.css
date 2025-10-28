@@ -169,7 +169,7 @@ section .container-card .card{
     color: #FFFFFF; 
     height: 150px;
     border-radius: 3px;
-    width: 120px;
+    width: 110px;
     justify-content: center;
     background-color: #6B9C1D;
     backdrop-filter: blur(10px);
@@ -183,14 +183,14 @@ section .container-card img{
     background-color: #ffffff;
 }
 #fundo-debaixo .imagem-central{
-    padding:30px;
+    padding:10px;
     overflow: hidden;
 }
 #fundo-debaixo .imagem-central img{
     border-radius: 20px;
     height: auto;
     width: 100%; 
-    max-width: 500px; 
+    max-width: 600px; 
     margin: 0 auto;
 }
 #container-about {
